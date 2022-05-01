@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>country of my list</title>
+  <!-- tawilwin css   -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- boot  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- css  -->
+  <style>
+    .makebg {
+      background-color: #02070538;
+    }
+
+    .shadow {
+      box-shadow: rgba(75, 3, 182, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .border {
+      border-radius: 40px;
+    }
+    .backgouond{
+      background-attachment: fixed;
+      width: 100%;
+      margin: auto;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-slate-900">
+    <div class="flex justify-between container mx-auto text-red-500 w-9/12 items-center">
+      <div>
+        <img class="w-2/5 rounded-[30px]" src="image/person.jpg" alt="" />
+      </div>
+      <!-- ... -->
+      <div>
+        <h1 class="text-xl p-12 rounded-l-xl ">Ms Imran</h1>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+
+
+  <!-- id detail ui  -->
+  <div id="idContainer" class="backgouond">
+
+  </div>
+
+  <section>
+    <div class="container w-50 mt-5 bg-grey py-5">
+      <!-- input area -->
+      <!-- <div class="input-group mb-3">
+    <button  class="btn btn-outline-secondary" type="button" >
+      user
+    </button>
+    <input type="text" class="form-control makebg"  placeholder="Name~" aria-label="Example text with button addon " 
+      aria-describedby="button-addon1" id="userName" />
+  </div> -->
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control makebg" placeholder="Search_partner.." aria-label="Recipient's username"
+          aria-describedby="button-addon2" id="Search_user" />
+
+        <button onclick="user()" id="search_button"  class="btn border border-dark btn-outline-dark" type="button" id="">
+          Search Product
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- user display  -->
+  <section class="container p-5 mx-auto">
+    <div id="userDetail" class="row gx-3 gx-2 gy-2 rounded-[4px]">
+
+    </div>
+  </section>
+
+
+
+  <!-- local store  -->
+
+  <!-- bayer site  -->
+
+  <script src="main.js"></script>
+</body>
+
+</html>
